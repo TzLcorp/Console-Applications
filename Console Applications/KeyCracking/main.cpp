@@ -18,7 +18,10 @@ using namespace std;
 // change the line color (from windows.h)
 HANDLE h = GetStdHandle(STD_OUTPUT_HANDLE); // I do not recommend using the "system(color x)" function because the entire console color changes.
 
-char crack[] = {'Q','W','E','R','T','Y','U','I','O','P','A','S','D','F','G','H','I','J','K','L','Z','X','C','V','B','N','M','1','2','3','4','5','6','7','8','9'}; // Random Words
+char crack[] = {'Q','W','E','R','T','Y','U','I','O','P', 'A','S',
+                'D','F','G','H','I','J','K','L','Z','X','C','V',
+                'B','N','M','1','2','3','4','5','6','7','8','9'}; // Random Words
+
 int colors[] = {15,12}; // Random Colors, white and red
 int i, a, randomColor; // The "randomColor" named variable, picks the random color on colors[] array
 
