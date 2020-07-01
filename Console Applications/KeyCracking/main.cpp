@@ -38,7 +38,7 @@ int main()
     for(i = 0; i < 15; i++){ // the loop repeats 15 times
         system("CLS"); // Starting
         cout << "\n\n";
-        srand(time(0)); // Random Time
+        srand(time(0)); // Current Time
         a = rand() % 36; // 36, the number of letters and numbers in the array
         randomColor = rand() % 2;
         SetConsoleTextAttribute(h,colors[randomColor]);
