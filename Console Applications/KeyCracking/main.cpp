@@ -9,7 +9,7 @@
 
 #include <iostream>
 #include <ctime>
-#include <conio.h>
+#include <conio.h> // If you want to use "getch()" function instead of "sleep(time)".
 #include <string>
 #include <windows.h>
 
