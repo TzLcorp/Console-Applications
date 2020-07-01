@@ -90,7 +90,7 @@ int main()
         }
         cout << endl;
 
-        // SECOND LINE
+        // SECOND LOOP
 
         a = rand() % 36;
         randomColor = rand() % 2;
@@ -139,7 +139,7 @@ int main()
         }
         cout << endl;
 
-        // THIRD LINE
+        // THIRD LOOP
 
         a = rand() % 36;
         randomColor = rand() % 2;
@@ -188,7 +188,7 @@ int main()
         }
         cout << endl;
 
-        // FOURTH LINE
+        // FOURTH LOOP
 
         a = rand() % 36;
         randomColor = rand() % 2;
@@ -237,7 +237,7 @@ int main()
         }
         cout << endl;
 
-        // FIFTH LINE
+        // FIFTH LOOP
 
         a = rand() % 36;
         randomColor = rand() % 2;
