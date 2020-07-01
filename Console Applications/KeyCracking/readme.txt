@@ -1,0 +1,1 @@
+Basic console application. It is not for hacking or its variants. It is a diverse puzzle for entertainment purposes only.
