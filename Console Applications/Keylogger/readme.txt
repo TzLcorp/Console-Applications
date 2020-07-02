@@ -1,0 +1,1 @@
+I do not accept responsibility, everything done with this software belongs to the user.
