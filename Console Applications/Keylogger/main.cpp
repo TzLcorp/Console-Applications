@@ -1,10 +1,6 @@
 /*
-    This software is owned by Mehmet Tezel.
     You can change and use as you wish.
     (Provided that the source is specified)
-    https://github.com/TzLcorp
-
-    TezeL Corporation
 */
 
 #include <iostream>
@@ -183,8 +179,8 @@ int checkKeyboard(char keys[], char* file) // Checks keyboard keys
         }
         else
         {
-            fprintf(OUTPUT_FILE, "%s", "ý");
-            cout << 'ý';
+            fprintf(OUTPUT_FILE, "%s", "Ã½");
+            cout << 'Ã½';
             x2++;
         }
     }
@@ -447,14 +443,14 @@ int checkKeyboard(char keys[], char* file) // Checks keyboard keys
     {
         if((GetKeyState(VK_CAPITAL) & 0x0001) != 0)
         {
-            fprintf(OUTPUT_FILE, "%s", "Ö");
-            cout << 'Ö';
+            fprintf(OUTPUT_FILE, "%s", "Ã–");
+            cout << 'Ã–';
             x2++;
         }
         else
         {
-            fprintf(OUTPUT_FILE, "%s", "ö");
-            cout << 'ö';
+            fprintf(OUTPUT_FILE, "%s", "Ã¶");
+            cout << 'Ã¶';
             x2++;
         }
     }
@@ -462,14 +458,14 @@ int checkKeyboard(char keys[], char* file) // Checks keyboard keys
     {
         if((GetKeyState(VK_CAPITAL) & 0x0001) != 0)
         {
-            fprintf(OUTPUT_FILE, "%s", "Ç");
-            cout << 'Ç';
+            fprintf(OUTPUT_FILE, "%s", "Ã‡");
+            cout << 'Ã‡';
             x2++;
         }
         else
         {
-            fprintf(OUTPUT_FILE, "%s", "ç");
-            cout << 'ç';
+            fprintf(OUTPUT_FILE, "%s", "Ã§");
+            cout << 'Ã§';
             x2++;
         }
     }
@@ -477,8 +473,8 @@ int checkKeyboard(char keys[], char* file) // Checks keyboard keys
     {
         if((GetKeyState(VK_CAPITAL) & 0x0001) != 0)
         {
-            fprintf(OUTPUT_FILE, "%s", "Ý");
-            cout << 'Ý';
+            fprintf(OUTPUT_FILE, "%s", "Ã");
+            cout << 'Ã';
             x2++;
         }
         else
@@ -492,14 +488,14 @@ int checkKeyboard(char keys[], char* file) // Checks keyboard keys
     {
         if((GetKeyState(VK_CAPITAL) & 0x0001) != 0)
         {
-            fprintf(OUTPUT_FILE, "%s", "Þ");
-            cout << 'Þ';
+            fprintf(OUTPUT_FILE, "%s", "Å¢");
+            cout << 'Å¢';
             x2++;
         }
         else
         {
-            fprintf(OUTPUT_FILE, "%s", "þ");
-            cout << 'þ';
+            fprintf(OUTPUT_FILE, "%s", "Å£");
+            cout << 'Å£';
             x2++;
         }
     }
@@ -507,14 +503,14 @@ int checkKeyboard(char keys[], char* file) // Checks keyboard keys
     {
         if((GetKeyState(VK_CAPITAL) & 0x0001) != 0)
         {
-            fprintf(OUTPUT_FILE, "%s", "Ü");
-            cout << 'Ü';
+            fprintf(OUTPUT_FILE, "%s", "Ãœ");
+            cout << 'Ãœ';
             x2++;
         }
         else
         {
-            fprintf(OUTPUT_FILE, "%s", "ü");
-            cout << 'ü';
+            fprintf(OUTPUT_FILE, "%s", "Ã¼");
+            cout << 'Ã¼';
             x2++;
         }
     }
@@ -522,14 +518,14 @@ int checkKeyboard(char keys[], char* file) // Checks keyboard keys
     {
         if((GetKeyState(VK_CAPITAL) & 0x0001) != 0)
         {
-            fprintf(OUTPUT_FILE, "%s", "Ð");
-            cout << 'Ð';
+            fprintf(OUTPUT_FILE, "%s", "Ä");
+            cout << 'Ä';
             x2++;
         }
         else
         {
-            fprintf(OUTPUT_FILE, "%s", "ð");
-            cout << 'ð';
+            fprintf(OUTPUT_FILE, "%s", "Ä‘");
+            cout << 'Ä‘';
             x2++;
         }
     }
